@@ -1,0 +1,23 @@
+TinyGPS v10, modified for uBlox
+
+This stripped down version works only with uBlox proprietary protocol – PUBX.
+Examples included.
+
+Added: 
+  get_time()
+  crack_time()
+  sats()
+  has_fix()
+  fix_quality()
+  vspeed()
+  
+Removed:
+  get_datetime()
+  crack_datetime()
+  distance_between() // commented out
+  stats()
+  f_speed_mps()
+  f_speed_knots() // commented out
+  
+---------
+x-f, 2012
