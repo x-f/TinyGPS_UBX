@@ -234,7 +234,7 @@ bool TinyGPS::term_complete()
         break;
       // fix quality
       case 408:
-        if (_term[0] == 'G') {
+        if (_term[0] == 'G' || _term[0] == 'D') {
           _gps_data_good = true;
           if (_term[1] == '2')
             _new_gps_fix_quality = 2;
